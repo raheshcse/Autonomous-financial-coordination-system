@@ -27,6 +27,75 @@ The application provides both:
 
 ---
 
+# Live Deployment
+
+## Frontend Application
+
+```text
+https://autonomous-financial-coordination-s.vercel.app/
+```
+
+## Backend API
+
+```text
+https://autonomous-financial-coordination-system.onrender.com/
+```
+
+## API Documentation
+
+```text
+https://autonomous-financial-coordination-system.onrender.com/docs
+```
+
+---
+
+# CI/CD Pipeline
+
+The project uses automated CI/CD deployment pipelines through GitHub integration.
+
+## Backend Deployment
+
+* Hosted on Render
+* Connected directly to GitHub
+* Automatic deployment triggered on every push to the `main` branch
+* FastAPI backend automatically rebuilds and redeploys after code updates
+
+## Frontend Deployment
+
+* Hosted on Vercel
+* Connected directly to GitHub
+* Automatic frontend builds and deployments triggered on every push to the `main` branch
+* React frontend automatically updates after commits
+
+---
+
+# Deployment Architecture
+
+```text
+React Frontend (Vercel)
+            ↓
+FastAPI Backend API (Render)
+            ↓
+LangGraph Multi-Agent Workflow Engine
+            ↓
+SQLite Database + Governance Logging
+```
+
+---
+
+# Production Features
+
+* Full-stack cloud deployment
+* Automatic CI/CD pipeline
+* Public frontend dashboard
+* Public API documentation
+* Real-time AI workflow execution
+* Governance monitoring
+* Multi-agent orchestration
+* Audit trail visualization
+* Financial risk analysis
+* Fraud escalation workflows
+
 # Key Features
 
 ## AI Multi-Agent Workflow System
