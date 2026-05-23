@@ -70,7 +70,7 @@ def update_transaction_status(
 def root():
     return {
         "message": "Autonomous Financial Coordination System API is running",
-        "docs": "https://autonomous Financial Coordination System.onrender.com/docs",
+        "docs": "https://autonomous-financial-coordination-backend.onrender.com",
     }
 
 
