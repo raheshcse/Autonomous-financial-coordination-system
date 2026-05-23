@@ -83,7 +83,7 @@ function Dashboard() {
   } catch (error) {
     console.error("Dashboard load error:", error);
     setErrorMessage(
-      "Unable to load dashboard data. Please confirm the backend is running on http://127.0.0.1:8000."
+      "Unable to load dashboard data. Please confirm the deployed backend is running."
     );
   } finally {
     setIsLoading(false);
