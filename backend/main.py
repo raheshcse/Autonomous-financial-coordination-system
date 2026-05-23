@@ -69,9 +69,9 @@ def update_transaction_status(
 @app.get("/")
 def root():
     return {
-    "message": "Backend CI/CD Auto Deploy Working",
-    "docs": "/docs",
-}
+        "message": "Autonomous Financial Coordination System API is running",
+        "docs": "https://autonomous Financial Coordination System.onrender.com/docs",
+    }
 
 
 @app.get("/health")
